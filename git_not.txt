@@ -1,0 +1,113 @@
+---------------------------------
+create account github.com
+emailid:swarupkumarp238@gmail.com
+password:Gitcredentials12@
+username:SwarupJava
+--------------------------
+enter gmail code
+-----------------------
+skip personalisation
+------------------------
+create repository
+repository name
+description same as repository name
+public
+create repository button click
+------------------------
+https://git-scm.com/downloads
+Downloads for windows(click)
+click here to download(click)
+download will happen automatically
+--------------------------
+.exe file install
+during installation
+windows explorer integration(select)
+Git Bash Here(select)
+Git GUI Here(select)
+next next.....
+install
+completing the git setup wizard
+Launch Git Bash(select)
+View Release Notes(select)
+Finish(click)
+Launch Git Bash(close)
+View Release Notes(close)
+-------------------------
+you can able to see 
+Git GUI Here
+Git Bash Here
+(right click on desktop)
+---------------------------
+crate new folder like git-practice
+we want to establish the communication between created folder and git hub repository
+let me operate this folder is a git operation folder
+go to created folder
+right click->select->Git Bash Here
+git init(command type)
+if .git folder after executing git init command
+then got to Start->folder(type)->File explorer options(select)->view(tab select)->Hidden files and folders[Show hidden files, folders, and drives(select)]->Apply(button)->ok(button)
+able to see .git folder
+------------------------
+created folder->create new text document->rename to Demo1.java
+write the business code inside the Demo1.java
+public class Test{
+public static void main(String... args){
+}
+}
+----------------------------------
+type git status in Git Bash Here
+it will show this is Untrack files
+---------------------------------------
+git add Demo1.java(type in Git Bash Here)
+------------------------------
+git status
+it will show it is changed to committed
+means file staged
+--------------------------
+type
+git commit -m "first commit"
+first commit is example
+---------------------------
+git branch -M main
+that means file is commit to main branch
+----------------------------
+git remote add origin https://github.com/SwarupJava/TaskLists.git
+for first time it need to execute
+
+before execute .git folder config file url = https://github.com/SwarupJava/TaskLists.git not present
+after excecute url = https://github.com/SwarupJava/TaskLists.git it will present
+--------------------------
+git push -u origin main
+403 error
+[branch "master"]
+    remote = origin
+    merge = refs/heads/master
+add in config folder
+
+https://stackoverflow.com/questions/7438313/pushing-to-git-returning-error-code-403-fatal-http-request-failed/
+-----------------------
+git push -u origin main
+-----------------------
+authorisation in browser
+enter username and password respective place
+authorisation success
+------------------------
+gitaccess in the Note
+--------------------
+step by step all steps
+$ git push -u origin main
+remote: Permission to SwarupJava/TaskList1.git denied to SwarupKP127.
+fatal: unable to access 'https://github.com/SwarupJava/TaskList1.git/': The requested URL returned error: 403
+
+git remote remove origin 
+git remote add origin https://SwarupJava@github.com/SwarupJava/TaskLists.git
+git push -u origin main
+----------------------------
+-----------------------
+git init
+git status
+git add --all
+git status
+git commit -m 'some details'
+git push
+------------------------------
