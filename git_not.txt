@@ -111,3 +111,12 @@ git status
 git commit -m 'some details'
 git push
 ------------------------------
+important:
+$ git init
+$ git status
+$ git add .
+$ git commit -m 'commit-msg'
+$ git branch -M main
+$ git remote add origin <repo-url>
+$ git push -u origin master
+-------------------------------------------
