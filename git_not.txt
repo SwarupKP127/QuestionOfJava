@@ -120,3 +120,12 @@ $ git branch -M main
 $ git remote add origin <repo-url>
 $ git push -u origin master
 -------------------------------------------
+git init
+git status
+git add .
+git commit -m 'commit-msg'
+git status
+git push
+------------------------------------------------------
+
+
