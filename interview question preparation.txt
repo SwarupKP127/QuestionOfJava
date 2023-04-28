@@ -1,0 +1,21 @@
+------------------------------------------------
+How to use Session in Java web application
+https://www.codejava.net/java-ee/servlet/how-to-use-session-in-java-web-application
+-----------------------------------------------
+How to set Session Timeout for Java web application
+https://www.codejava.net/java-ee/servlet/how-to-set-session-timeout-for-java-web-application
+---------------------------------------------
+https://javatechonline.com/spring-boot-interview-questions/#Q10_What_is_the_concept_of_Profiles_in_Spring_Boot
+--------------------------------------------------
+Java 8 Interview Questions
+https://javatechonline.com/java-8-interview-questions/
+-------------------------------------------
+Spring @Configuration Annotation Examples
+https://www.codejava.net/frameworks/spring/configuration-annotation-examples
+---------------------------------------------
+03-Working With Functional Interface wrt to Inheritance Concept
+https://www.youtube.com/watch?v=ljc3XSQ-ueo
+------------------------------------------------
+Spring Boot Bean Annotations With Examples
+https://javatechonline.com/spring-boot-bean-annotations-with-examples/#Order
+------------------------------------------------
