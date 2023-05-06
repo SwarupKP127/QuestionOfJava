@@ -1,0 +1,30 @@
+-------------------------------
+database url : mongodb+srv://admin:admin@cluster0.urwtt.mongodb.net/ng9pm?retryWrites=true&w=majority
+
+collection name : products
+------------------------------
+email:swarupkp12@gmail.com
+password:Mongodb125@
+main
+-------------------------------
+email:swarupkumarp283@gmail.com
+password:Secure1235@
+---------------------------------
+database name : ng8pm
+collection namec: products
+username : admin
+password : admin
+connection URL : mongodb+srv://admin:admin@cluster0.urwtt.mongodb.net/ng8pm?retryWrites=true&w=majority
+-------------------------------
+for mongodb login url
+https://account.mongodb.com/account/login
+--------------------------------
+add database url
+https://cloud.mongodb.com/v2/645660283b6ed91746600b30#/clusters
+--------------------------------------------
+How to Fix this Project Already Has Another Free Cluster | MongoDB
+https://www.youtube.com/watch?v=MRH7TOrqAeg
+----------------------------------------------
+Get Your Free MongoDB Atlas Cluster!
+https://www.youtube.com/watch?v=jXgJyuBeb_o
+-----------------------------------------------------------
