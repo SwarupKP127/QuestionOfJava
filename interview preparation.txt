@@ -1,0 +1,12 @@
+1.Explain little about your self?
+ans:Thanks for giving me this opportunity to introduce about myself. This is swarup having 4+ years of experience in java and J2EE technology.
+->I am having good work experience with Spring framework and Spring boot.
+->I have hands on experience in using and implementing design patterns in project.
+->I have hands on experience in handling excptions in applications.
+->I have good hands on work experience in batches development.
+->I have good work experience with both backend and frontend technologies.
+->I have hands on experience with both Oracle and mysql queries.
+->I have good experience in dealing with onshore and offshore team memeberrs.
+->Currently i am working with infibeam avenues limited.
+
+2.
