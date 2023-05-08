@@ -1,0 +1,26 @@
+----------------------------------------------
+How to Download and Install Apache ActiveMQ on Windows? | ActiveMQ tutorial
+https://www.youtube.com/watch?v=CrpBJgGqhS8
+----------------------------------------------------
+How to Send/Receive Text Message to/from Queue(Spring + JMS + ActiveMQ Example with Annotations)?
+https://www.youtube.com/watch?v=yjrS95TMCvg
+------------------------------------------
+https://activemq.apache.org/activemq-5015015-release
+is suitable for java8
+-------------------------------------------------------
+how to set system variable in windows 10
+https://javatutorial.net/set-java-home-windows-10/
+------------------------------------------------
+which version of activemq is suitable for which version of java
+https://www.baeldung.com/java-lang-unsupportedclassversion
+----------------------------------------------------
+http://localhost:8161/
+-------------------------------------
+enter in popup
+username:admin
+password:admin
+------------------------------------------
+note:
+set path activemq
+activemq start
+-----------------------------------------------
