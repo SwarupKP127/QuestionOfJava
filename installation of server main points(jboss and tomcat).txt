@@ -1,0 +1,7 @@
+-----------------------------------------------
+install and run jboss first 
+it will run default 8080 port
+-----------------------------------------------
+after jboss run
+then install tomcat with change in HTTP/1.1 Connector Port while during installation
+-----------------------------------------
