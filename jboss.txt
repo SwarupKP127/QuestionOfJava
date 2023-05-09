@@ -13,6 +13,7 @@ D:\jboss\jboss-eap-7.2\bin
 standalone.bat--------------------->right click=>run as admnistrator
 -------------------------------------
 localhost:8080/-------------------------->enter in browser
+jboss home page will come
 --------------------------------------
 jboss credentials
 emailid:swarupkp12@gmail.com
