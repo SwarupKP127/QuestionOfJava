@@ -1,0 +1,40 @@
+------------------------------------------
+https://www.youtube.com/watch?v=QwExzQt0XGE
+Installing Tomcat 9 on Windows
+---------------------------------------------only change in application
+Server shutdown port : 9398
+HTTP/1.1 Connector Port : 9892
+
+Create shortcuts for all users : click
+User Name : admin
+Password : admin
+----------------------------------------------
+install our tomcat exe see this video
+conf
+server.xml
+
+<!-- Define an AJP 1.3 Connector on port 8009 -->
+    <Connector protocol="AJP/1.3"
+               address="::1"
+               port="8009"
+               redirectPort="8443" />
+-------------------------------------------------
+after
+-------------------------------------------------
+<Connector protocol="AJP/1.3" address="::1" port="8009"
+           redirectPort="8443" secretRequired="false" />
+----------------------------------------------------
+not required to run
+Services
+-------------------------------------------------------
+to run Tomcat9.exe file
+C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin
+-----------------------------------------------
+afetr server started
+localhost:9892/--------------------->enter in browser
+click Manager App
+popup will come
+Username:admin
+Password:admin
+Tomcat Web Application Manager page will come
+-------------------------------------------------------

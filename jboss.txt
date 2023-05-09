@@ -1,6 +1,3 @@
-------------------------------------------
-(Solved) This File Does Not Have An App Associated With It For Performing This Action In Windows 10
-https://www.youtube.com/watch?v=OqoaCNqRgtQ
 ----------------------------------------------
 Jboss Installation on Windows
 https://www.youtube.com/watch?v=mW6PidWF0yY
@@ -8,6 +5,15 @@ https://www.youtube.com/watch?v=mW6PidWF0yY
 jboss download link
 https://developers.redhat.com/products/eap/download
 --------------------------------------------
+same process
+instaed of 7.0.0
+we will use 7.2.0
+---------------------------------------------
+D:\jboss\jboss-eap-7.2\bin
+standalone.bat--------------------->right click=>run as admnistrator
+-------------------------------------
+localhost:8080/-------------------------->enter in browser
+--------------------------------------
 jboss credentials
 emailid:swarupkp12@gmail.com
 password:Redhatpassword123@
