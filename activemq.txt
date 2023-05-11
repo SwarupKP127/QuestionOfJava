@@ -24,3 +24,17 @@ note:
 set path activemq
 activemq start
 -----------------------------------------------
+How to Send/Receive Text Message to/from Queue(Spring + JMS + ActiveMQ Example with Annotations)?
+https://www.youtube.com/watch?v=yjrS95TMCvg
+
+note:
+when you run in java application before you must have to run acivemq in command prompt
+------------------------------------------
+interview points
+
+Spring JMS with ActiveMQ example using annotation configuration:
+->Client 1 which is message producer which will create message and sends message to Queue.
+->Client 2 which is message consumer which will consume message from queue and acknowledges message to queue.
+->in this example we are using queue of ActiveMQ.
+----------------------------------------------
+

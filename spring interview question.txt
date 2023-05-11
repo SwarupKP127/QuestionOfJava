@@ -1,0 +1,9 @@
+-------------------------------------
+what is @Bean annotation
+----------------------------------------
+what is @Configuration annotaion
+-----------------------------------------
+what is @ComponentScan(basePackages = "com.ram") annotation
+------------------------------------------
+what is @Import annotation
+-----------------------------------------
