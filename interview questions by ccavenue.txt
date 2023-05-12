@@ -1,0 +1,70 @@
+--------------------------------------------
+bu using gson we can convert json to object
+punjabStateTaxReq = new Gson().fromJson(dec, PunjabStateTaxRequestDTO.class);
+/opt/alle/PUNJAB STATE TAX/PunjabStateTaxIntegration.java
+---------------------------------------
+reqObj = mapper.readValue(enamEscrowResponseFromDb, HDFCEscrowTxnBean.class);
+ReconDetailsScheduler
+---------------------------------------------
+public Object validateHDFCRecon(@RequestBody HDFCReconRequest request, @PathVariable String bankName) {
+		List<HDFCReconBean> beanList = request.getGenericCorporateAlertRequest();
+ReconController
+---------------------------------
+what is the difference between final object and immutable object
+-----------------------------------
+int one parameter
+String another parameter
+we are passing null value
+how the collision handeled in hashmap
+what is new changes implementation done in hava8
+can you use @Repository annotation in service
+what is the difference between @Controller annotation and @RestController annotation
+what is the difference between equals() method and hashCode() method in HashMap
+what is the difference between save() and saveOrUpdate() in hibernate
+what is the difference between get() and load() in hibernate
+how garbage collector works in java
+what is the use of static method in interface
+why string is immutable? what is means?
+what is the difference between @Table annotaion and @Entity annotation
+cloneable interface
+serializable interface
+what is the difference between final object and immutable object? both are same or different?
+
+nullpointerexception issue resolved:
+"N".equalsIgnoreCase(cardExpiredFlag)
+
+how classloader works internally in javatpoint
+https://www.javatpoint.com/classloader-in-java
+
+Memory Leak in Java
+https://www.javatpoint.com/memory-leak-in-java
+
+what is the difference between hashmap and concurrenthashmap
+
+Java DOM Parser - Create XML Document(create xml documents)
+https://www.tutorialspoint.com/java_xml/java_dom_create_document.htm#
+
+Spring Boot + ActiveMQ Hello world Example
+https://www.javainuse.com/spring/sprboot_activemq
+
+HTML & CSS Full Course - Beginner to Pro
+https://www.youtube.com/watch?v=G3e-cpL7ofc
+
+https://www.baeldung.com/spring-beancreationexception
+Spring BeanCreationException
+
+ObjectMapper
+convertValue()
+https://stackoverflow.com/questions/59232693/jackson-databind-objectmapper-convertvalue-with-custom-mapping-implementaion
+readValue()
+https://www.javatpoint.com/objectmapper-class-in-jackson
+writeValueAsString()
+https://www.javatpoint.com/objectmapper-class-in-jackson
+
+what is composition, inheritance, aggregation in java
+
+what is serialization in java
+https://www.javatpoint.com/serialization-in-java
+-----------------------------------
+what is the role equals method in HashMap
+--------------------------------------------
