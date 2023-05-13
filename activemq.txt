@@ -15,6 +15,11 @@ which version of activemq is suitable for which version of java
 https://www.baeldung.com/java-lang-unsupportedclassversion
 ----------------------------------------------------
 http://localhost:8161/
+
+home page will come
+Manage ActiveMQ broker---->click
+then click
+Queues
 -------------------------------------
 enter in popup
 username:admin
