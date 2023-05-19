@@ -1,0 +1,11 @@
+-----------------------------------
+visa developer community
+email:swarupkp12@gmail.com
+password:Visacommunity12@
+------------------------------------------
+visa site login url
+https://developer.visa.com/identity/user/login
+------------------------------------------
+Tutorial: How to Connect to Visa APIs using Two-way SSL and Postman
+https://www.youtube.com/watch?v=jFnUqWKXMS0
+---------------------------------------------------
