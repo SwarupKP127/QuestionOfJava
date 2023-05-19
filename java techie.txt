@@ -1,0 +1,10 @@
+--------------------------------------------------
+Microservices Security Using JWT | Spring Cloud Gateway | JavaTechie
+https://www.youtube.com/watch?v=MWvnmyLRUik
+-------------------------------------------------
+Java 8 Streams | Optional Usage and Best Practices | JavaTechie
+https://www.youtube.com/watch?v=4BUKaazoYyg
+-----------------------------------------------
+Singleton Design pattern in Java | Best Practice | Java Techie
+https://www.youtube.com/watch?v=3yEx0w3eYpk
+----------------------------------------------------
