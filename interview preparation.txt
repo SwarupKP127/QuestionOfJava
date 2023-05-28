@@ -9,4 +9,837 @@ ans:Thanks for giving me this opportunity to introduce about myself. This is swa
 ->I have good experience in dealing with onshore and offshore team memeberrs.
 ->Currently i am working with infibeam avenues limited.
 
-2.
+2.what are your role and responsibilities?
+ans:a.Collecting the requirements from fuctional team in terms of BRD(Business Requirement Documents will contain high level requirements) and FDD(Fuctional Design Documents which will contain low level requirements).
+b.Undestanding FDD.
+c.Updating queries in query log(Excel File)
+d.Attending meetings with fuctional team to get clarifications on queries which are already in query log
+e.Sending MOM(Minutes of meeting)---->summary of discussion
+f.Preparing TDD(Techniacal Design Documnet)
+g.Getting approval for TDD from Architect and Fuctional Team
+h.Development
+i.Unit testing(Junit and Mockito)
+j.Code Review(SonarQube)
+k.Push code to repository(SVN ot GIthub or Bitbucket)
+l.performing integration testing in DEV Enverioument
+m.Cpturing Dev. Artifacts(Testing results, Junit reports, Code review, reports, etc.)
+n.Support for QA, UAT and PROD Envrioument
+o.Participating in Triage Calls means preparing documents for what we have done.
+
+3.Explain About your project Architecture.
+ans:i know
+
+4.How many modules are therein your project and what are those?
+ans:i know
+
+5.who is your reporting manager in your current company?
+ans:i know
+
+6.can i call your manager now to know about your performance in project?
+ans:yes, off course you can do that. He will give very good feedback about team because i am top performer in my team.
+But if you call and ask him now he may get negative impression on me because he does not know that i am looking for another job. Once i joined here then you can take feedback from my manager that will not create any problem for carrier.
+
+7.Apart from your regular work what extra you have done in your company?
+ans:Apart from my project work, i have provided in house-training in company to train the people latest technologies like spring boot, kafka, rest api development etc.
+I used to act interview panel member where there is requirement in company.
+I used to provide KT for new joiner this project.
+
+8.Have you ever involved in effort estimations?
+ans:yes, when a new task assigned by my team lead i used to provide estimated efforts.
+
+Note:that means providing number of hours required to complete development, unit testing and documnetation.
+
+9.how many enveriouments are there for your applications.
+ans:in companies project contain below enverioument.
+a.Dev
+b.qa
+c.uat
+d.production
+
+10.which SDLC methodology following in your projects?
+ans:Agile
+
+11.what is the difference between scrum and sprint?
+ans:Daily scrum:The daily scrum is a short stand up meeting that happens at the same place and time each day. At each meeting, the team reviews work that was completed the previous day and plans what work will be done in the next 24 hours.
+This is the time for team memebers to spaek up about any problems that might prevent project completion.
+
+Sprint:A sprint refers to the time frame in which work must be competed. and it is often 30 days.everyone participates in settting the goal and at the end at least one increment -- a usable software -- should be produced.
+
+12.what are the tools you have used in your project?
+ans:you can say below tools
+Maven-build tools
+junit and mockito - unit testings
+Log4j-logging tools
+putty, wincp, splunk, quartz - log monitoring tools
+svn/git/bit bucket- repository tools
+sonar qube- code review tools
+jacocoo-code coverage tools
+
+13.what are the design patterns you have used in your project?
+ans:you can tell several design patterns like
+singleton design pattern
+strategy design pattern
+mvc design pattern
+front controller design pattern
+cache design pattern
+Note:what ever you are telling youn should able to implement them if he asks to code write for them
+
+14.what is cache design pattern?
+ans:cache design patterns is used to reduce read operation with external resources like properties file and data stores.
+using cache we can improve performance of applications.
+flow:interfacing applications->request data->if not find in cache find it in data source->load it in the cache->return requested data->interfacing application
+interfacing applications->request data->if data found in cache->interfacing application
+
+15.what is the front controller design pattern and where you used in your project?
+ans:The front controller design pattern means that all resource that come for a resource in an application will be handled by single handler and then dispatched to appropiate handler for that type of request. The front controller may use
+other helpers to achieve the dispatching mechanism.
+1.http request
+2.dispatcher servlet
+
+3.handler mapping(to/from)
+4.controller(to/from)
+5.view resolver(to/from)
+6.view(to/from)
+
+7.http response
+
+
+16.how you are managing configuration proprties in project?
+ans:/src/main/resource/application.properties
+
+17.how you will connect with onshore team?
+ans:to communicate with onshore team members we will bridge calls using team meetings.
+
+18.have you ever communicated with client?
+ans:i did not get the chance to communicate with my client till now. when i have a doubt on my requirement i will communicate my functional team who are in onshore.
+
+19.what is MoM?
+ans:MoM-Minutes of meeting. Once meeting is completed it is highly recommended to share meeting summary like points discussed and action items. Meeting summary is called Minutes of Meeting.
+
+20.Have you ever involved in defect triaging?
+ans:yes, my project UAT happening in onshore. when issue identified in UAT enverioument, UAT testing will hadoffs defects in triage calls.in UAT phase daily we have defect triage call. in this call both onshore and offshore team members
+will join to discuss related defects reported in UAT.
+
+21.what is BRD?
+ans:BRD stands for business requirement documnets which contain high level requiremets and scope of requirements.
+
+22.what is TDD?
+ans:TDD stands for technical design documents. TDD contains requirement implementation details like
+a)Business Requirement
+b)scope of requirements
+c)confimation
+d)assumptions
+e)limitations
+f)known issues
+g)process diagrams
+h)database details like new tables, changes to exising tables
+i)screen shots.
+j)batch details and batch scheduling details.
+k)appendix
+
+
+23.what is the difference between TDD and FDD?
+ans:FDD-Fuctional Design Document which contain details about requirement and it will be prepared by Fuctional/Buisiness Team.
+
+TDD-Technical Design Document which contains implemetation details and it will be prepared by developer.
+
+
+24.Do you know UML Diagrams?
+ans:Yes-In my current project i prepared many technical design documents. As part of Technical design documents i have created class diagrams, sequence diagrams and flow diagrams.
+
+
+25.what is the difference between classs and sequence diagrams?
+ans:class diagram-In software engineering, a class diagram in the Unified Modeling Language(UML) is a type of static structure diagram that describes the strucure of a system by showing the system's classes, their attributes,
+operations(or methods), and the relationships among objects.
+
+sequence diagram-sequence diagram shows object interactions arranged in time sequence of message exchanged between the objects needed to carry out the functionality of the scenario. Sequence diagrams are typically assosiated with use case realizations
+in the logical view of the system under development. sequence diagram are sometimes called event diagrams and event scenaios.
+
+
+26.which tool you used to create TDD?
+ans:To create TDD we are using Enterpise Acrchitect(EA) tool. We can use other tools like Microsoft Visio and Star UML etc.
+
+
+27.How you will get FDD in company?
+ans:Once FDD got approved by client, my functional team will upload FDD in sharepoint location and they will share sharepoint URL with us. Using that sharepoint URL we will download FDD documents.
+
+
+28.Do you know what is query logs?
+ans:yes, In my project we are using query log. when we have doubts on FDD documents, we will prepare our queries in query log and will upload that in sharepoint. Functioal team will provide clarifications to the queries which are logged
+in Query Log.
+
+
+29.what is bridge call?
+ans:it is like conference call. which is used discuss project related details with project team memebers.
+
+
+30.which repository server you are using in project?
+ans:in my current project we are using BitBucket.
+
+
+31.what is check-in and check-out ?
+ans:checkout-Taking project from repository server to local system is called checkout.
+
+checkin-Moving File(s) changes from Local system to Repository Server is called Check-in or commit.
+
+
+32.How you will do code check-in?
+ans:After making my code changes first i will compare change files with repository files.
+
+If there are any new changes in Repository server then i will take update from repository then i will make no conflicts are there in the files then i will commit changed files to repository server.
+
+33.which client software you used for SVN?
+ans:For SVN we can use tortoise SVN or Subclipse plugin as Client Software.
+
+
+34.Have you ever used VPN?
+ans:VPN-Virtual Private Network. Which is like a firewall to access client specific datalike project source code, functioal design documents etc.
+
+Project PMO will raise a request to Client to Provide VPN access for Project Team members.
+
+
+35.what is debugging?
+ans:Debugging is a process of executing code step by step which is used to identify bugs in code.
+
+
+36.what is the difference between debugging and testing?
+ans:Debugging purpose is used to identify and fix bugs in source code. it will done by developer.
+
+Testing purpose is used to identify bugs in source code. it will be done by tester.
+
+
+37.Tell me debugging shortcuts?
+ans:T5-to go inside method.
+T6-to  move next line.
+T7-To come back to caller.
+T8-to move to next break point.
+Drop to frame:Re-Executing method.
+
+
+38.what is drop to frame?
+ans:when we are debugging a code, sometimes we will lose our focus due to some external factors then we may not understand how exactly that method or logic get executed. Then we can use Drop to frame to re-execute the method on fly.
+
+
+39.can we change value of a variable when program is running?
+ans:yes-using variable pallet we can chnage values of variables when program is under execution.
+
+
+40.Have you ever worked with debugg shell?
+ans:Yes
+
+
+41.what is unit testing?
+ans:UNIT TESTING is a level of software testing where individual units/components of a software are tested. The purpose is used to validate that each unit of the software programs are designed. A unit is the smallest testable part of any software.
+
+
+42.How you are doing unit testingin project?
+ans:we are using junit to perform unit testing.
+
+
+43.Tell me few annotations available in Junit?
+ans:@BeforeClass-Run once before any of the test methods in the class, public static void.
+@AfterClass-Run once after all the tests in the class have been run, public static void.
+@Before-Run before @Test, Public void
+@After-Run after @Test, Public void.
+@Test-This is the test method to run, public void..
+
+
+44.Do you know mocking?
+ans:it is the process of creating substitutes for component classes to perform unit testing.
+Mocking is a replica or imitations of something.
+we use mocking in unit testing. An object that you want to test may have dependecies on other complex objects. To isolate the behaviour of the object you want to test you replace the other objects. So in simple words, mocking is creating objects
+that simulate the behaviour of real objects.
+
+
+45.could you please explain a scenario where have you used mocking?
+ans:As part of our application we have many controller classes. In order to write junit scripts for controllers we have used mocking.
+
+
+46.How you will debug an issue in production enverioument?
+ans:using log files i will identify where exactly issue occured.
+
+
+47.what is logging?
+ans:Logging is just a fancy wors to define a process of writing down everything you do.
+There are several kinds of logging. you may log every operation of an applications, log only when error occurs, or log critical operations done by a user, especially if you want to have control of who is doing what for audit purposes.
+Applications can log at a code level for debugging or at a user level for audits any forbidden access register.
+Every operating system have routines or services running on the background with the task of taking notes of everything that is happening. This way a sys admin can detect security breaches, malfunctions etc.
+
+
+48.Tell me logging levels?
+ans:Below are the logging levels.
+Trace
+Debug
+Info
+Warn
+Error
+Fatal
+
+note:https://www.tutorialspoint.com/log4j/log4j_logging_levels.htm#
+
+
+49.which log level your projecthaving in production?
+ans:in my production system, ifram team configured info level.
+
+
+50.what is puitty and winscp?
+ans:putty and winscp tools are used for connecting linux machines. I am using windows operation systems for development and project higher enverioument are having linux operating systems. when i want to see logs of application then i will use putty
+or winscp to connect from my windows machine to linux machine.
+
+
+51.Have you ever used splunk?
+ans:yes it is log reporting tool. in production enverioument we are using splunk to query logs.
+
+
+52.have you ever handled exceptions in your project? How?
+ans:Yes i have created custom exception in project like NoDataFoundException, Invalid Request Exception etc. I have created Global exception handler in project to handle exceptions across the project using below Annotations.
+@ControllerAdvice and @ExceptionHandler
+
+
+53.what is complex situation you have faced in your current project?
+ans:in my current project we are having batches which will execute in night time. Those batch will perform bulk operations in database like lakhs of records we need to process like plan terminations, plan renewal and benefit issurance etc. we faced
+performance issue in batch execution. we struggled a lot to reduce batch execution time.
+
+i resolved the issue by Multi-Threading and improve the performance of batch executions.
+
+
+54.where you have used Multi-Threading in project?
+ans:yes. In batch processing we have used Mult-Threading to complete batch execution quickly which is used to renewal customer insurance plans.
+
+note:multiple batch is running in my project.
+to improve performance we are using multi threading.
+you can give example Callable interface, Execute(), java8 in multithreading example.
+
+
+55.How batches are scheduled in your project?
+ans:we are using commercial tool to schedule batches i.e. Opcon Scheduler.
+
+not:in my current compant we are using QUARTZ to run scheduler.
+
+
+56.In my current company we do not have license for Opcon Scheduler then how you will run batches in project.
+ans:we can use open Source API for Batch Scheduling like Quartz API or we can use Spring scheduler also to schedule batches using below annotations.
+@EnableSchduling
+@Scheduled(Cron expression)
+
+
+57.what is the difference between authentications and authorizations?
+ans:Authentication is used for credentials checking. we will use this when user is trying to login into application.
+
+Authorization we will perform to check wheather user can specific functionality in the project. This is role based functionality.
+
+
+58.where you have use Rest API in your project?
+ans:As part of our application we are hitting Rules Engine where Business rules are executing to determine eligibility for individual plan. Rules API running in another server which exposed as Rest API. So in my project we have implement
+Rest Client logic using RestTemplate to access Rest API.
+
+note:Rules API developed by some company.
+two parties involved one is client and another is resource.
+
+
+59.How to secure rest api?
+ans:we can use below mechanisms to secure Rest APIs
+1)Basis Authentications
+2)SSL Certificate Based authentications
+3)OAuth
+
+In our project we are using SSL certificate based authentications.
+
+note:practice some code for SSL Certificate Based authentication.
+
+
+60.What is Swagger?
+ans:Swagger is a third party library which is used to generate documentation for Rest API.
+
+
+61.Tell me few annotations available in Swahgger?
+ans:@API
+@ApiOperation
+@ApiModel
+@Response etc..
+
+
+62.what is bug reporting tool used in your project?
+ans:we are using JIRA as a bug reporting tool in our project.
+
+note:in my current company using clickup same like JIRA but clickup is not open source, clickup is commercial.
+
+
+63.How task will be assigned to you?
+ans:Task is assigning through JIRA.
+
+
+64.How many db tables are there in your project?
+ans:you can tell random number here beacuse interviewer will not come to our office to count those tables count is correct or not. This kind of question will be asked just to check your confidence level.
+
+
+65.Application is taking lot of time to respond in production, how you will identify the root cause?
+ans:Application performance slow can be form multiple reasons like
+Network speed
+Code execution time
+DB Query execution time
+
+we will chek heap dumps and thread dumps using profilers to understand the root cause.
+
+
+66.How many enveriouments is there in your applications?
+ans:we have below enveriouments.
+DEV
+QA(SIT)
+UAT
+Infosec
+Production
+
+
+67.How build is deploying to Higher Enveriouments in Your project?
+ans:we are using CI & CD concept in project to perform auto deployments. we are using jenkins tool for deploying code to enveriouments.
+
+
+68.Have you ever used jenkins?
+ans:Yes in my current project we are using jenkins for auto deployments.
+
+note:https://www.youtube.com/watch?v=SONEaty1ydk
+
+
+69.what is pipeline in jenkins?
+ans:In jenkins, a pipeline is a group of events or jobs which are interlinked with one another in a sequence.
+
+Jenkins is an open continuous integration server which has the ability to support automation of software development processes. you can create multiple automation jobs withthe help of use cases, and run them as a jenkin pipelines.
+
+note:dev jobs completed then to qa job. qa job completed after that uat job. uat job completed after that production job.
+
+ 
+70.who will create pipeline in your project?
+ans:we are having devops team to create pipelines. when we need a pieline we need to send them fomal email with manager approval to create pipeline with repository details.
+
+note:what ever url is required and branches required we need to inform devops team
+
+
+71.do you know how to enable email notifications in jenkins?
+ans:Yes
+
+
+72.which tool you are using to review soutrce code?
+ans:we are using SonarQube to review source code.
+
+note:PMDR SonarQube is used to perform code review.
+code review is two types one is peer review and toor review.
+peer review:which is code check manually by technical lead.
+tool review:sonar qube plugin into jenkins and jenkins will do code review. if quality is passed then deployment will be done otherwise stop deploment.
+
+
+73.what is the code coverage tool using in your project?
+ans:code coverage is a measure which describes the degree of which the source code of the program has been tested. it is one of them of white box testing which finds the areas of the program not executed by a set of test caes.
+
+we are using jacocoo plugin in IDEto identify code covergae.
+
+
+74.what is scrum(meeting) and sprint(release to client)?
+ans:scrum-scrum is a daily stand up meeting where we are going to discuss with scrum master what done yesterday and what plan for today, we are facing problems into our tasks in given time thos things. all team members are joining a meeting
+and discuss for some time. duration of the scrum not more than 30 minutes.the scrum meetings is conducted by scrum master.this procedure you can get agile methodology development.scrum is a daily stand up meeting.
+
+sprint-sprint is a duration for devliver of a project. the specific of time like two weeks and three weeks duration odf sprint. the task is going to deliver task to client with given time. sprint is a release how many tasks going to deliver the client
+with the given amount of time. this is related to agile methodology.
+
+
+75.in your resume you mentioned linux operating sysyem, tell me some linux commands?
+ans:Genearally we will use putty tool to query log file which are mounted in linux oprating system. we can use below commands to query logs.
+Ls:list command
+Grep:which is used to search something in a file.
+Cp:copy command
+Rm:to remove and delete file.
+Head:to get the data from top use Head command.
+Tail:get the data from bottom use Tail command.
+Vim:you want edit something. you can use Vim command
+
+
+76.Have you ever involved in KT Session?
+ans:KT-Knowledge Transfer. you can say that when new member joined in our team i will provide module KT for them.
+
+
+77.why you want to change from your current job?
+ans:you can say that, i am looking to work with new domain and new technologies and with new people and to improve my functional technical and management skills and salary hike also one of the reason to change.
+
+
+78.if one of our team member not completing tasks on time then how you will deal with him?
+ans:i will try help him in initial stages to complete task and i will make him understand the urgency of requirement delivery. if he is not meeting delivery time then i will escalate to my higher authority people.
+
+
+79.Have you ever provided Data Fix for production System?
+ans:Data Fix for production maens updaing data in backend (database). if any batch executed or processed records incorrectly then we will correct that data or will flip triggers back to pending state to re-process them with updated logic.
+
+
+80.How you will do DDL change in SIT or UAT enveriouments?
+ans:Generally as a developer we can not make DDL change directly in higher enveriouments. Project will have dedicated db team. we need send them a request for DDL change.
+
+In few companies they will jira to create task and need to assign that task to DB team.
+
+
+81.Have you done any documentation for project?
+ans:yes. i have prepared service and release documents in my project.
+
+
+82.where do you want to see you after 3 years?
+ans:i want to get complete functional knowledge about project and i will improve my technical skills in multiple projects and few certifications.
+
+
+83.what is your notice period?
+ans:you can say as per your company norms like 1 or 2 or 3 months. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
