@@ -1,0 +1,205 @@
+1)who developed java programming language?
+2)why is java so popular?
+3)what is platform independent?
+4)what is bytecode?
+5)compare JDK vs JRE vs JVM?
+6)what is a Token? how many types?
+7)Define datatype and its types?
+8)what are different types of operator in java?
+9)what is casting?
+10)what is implicit casting?
+11)what is explicit casting?
+12)what is an array?Explain different types of array?
+13)Explain Array class methods?
+14)Difference between length and length()?
+15)what is jagged array?
+16)what is a class?
+17)what is an object?
+18)what is state of an object?
+19)what is behaviour of an object?
+20)what are different types of variable in java?
+21)what are different types of methods in java?
+22)Explain inheritance with examples?
+23)what is method overloading?
+24)what is method overriding?
+25)what is method hididng?
+26)can you achieve method overriding in static method?
+27)what is upcasting?
+28)can super class reference variable hold an object of subclass?
+29)is multiple inheritance allowed in java?
+30)what is constructor?
+31)what is a default constructor?
+32)how do you call a super class constructor from sub class constructor?
+33)what is the use of this()?
+34)can a constructor be called directly from a method?
+35)is a super class constructor called even when there is no explicit call from a sub class constructor?
+36)what is polymorphism?
+37)what is the use of instanceOf operator in java?
+38)what is encapsulation?
+39)what is interface?
+40)how do you define an interface?
+41)how do you implement an interface?
+42)what else you know about interface?
+43)can you extend an interface?
+44)can a class extend multiple interfaces?
+45)what is an abstract class?
+46)when do you use an abstract class?
+47)how do you define an abstract method?
+48)compare abstract class and interface?
+49)what is an inner class?
+50)what is a static inner class?
+51)can you create a inner class inside method?
+52)what is an anonymous class?
+53)what is default class modifier?
+54)what is private access modifier?
+55)what is default or package access modifier?
+56)what is protected access modifier?
+57)what is public access modifier?
+58)what access types of variables can be accessed from a class in same package?
+59)what access types of variables can be accessed from a class in different package?
+60)what access types of variables can be accessed from a sub class in same package?
+61)what access types of variables can be accessed from a sub class in different package?
+62)what is the use of final modifier on a variable?
+63)what is the use of final modifier on a class?
+64)what is the use of final modifier on a method?
+65)what is a final argumernt?
+66)what happens when a variable marked as volatile?
+67)what is static variable?
+68)should default be the last case in a switch statement?
+69)what is an enhanced for loop?
+70)what are the default values in an array?
+71)how many ways are there to read inputthrough the keyboard?
+72)difference between final, finally and finalize in java?
+73)what are wrapper classes in java?
+74)why do you need wrapper classes?
+75)int a=10;
+76)Integer l=a;//autoboxing
+77)int b = l;//auto unboxing
+78)what is casting?
+79)what is string immutability?
+80)what are string values strored in memory?
+81)what is the difference between String, StringBuffer and StringBuilder class?
+82)Explain about toString() method?
+83)what is the use of equals() method in java?
+84)what is the use hashCode() method in java?
+85)how do you print contenets of an array?
+86)what are important difference between c++ and java?
+87)what is the role of a classloader in java?
+88)what are the different ways of creating wrapper class instances?
+89)what are the differences in the two ways of creating wrapper classes?
+90)what is auto boxing?
+91)what are advantage of auto boxing?
+92)why shuold you be careful about String concatenation(+) opeartor in loops?how do you solve above problem?
+93)can you give examples of different utility methods in String class?
+94)what are the important things to consider when implementing equals method?
+95)what is coupling?
+96)what is cohesion?
+97)why should you always use blocks around is statement?
+98)how do you loop around an array using enhanced for loop?
+99)how do you compare 2 arrays?
+100)what is an enum?
+101)can you use a switch statement around an enum?
+102)what are variables arguments or varargs?
+103)what is static initialization blocks?
+104)what is instance intialize block?
+105)difference between static method and instance method?
+106)what is the difference between this and super?
+107)what is the difference between this() and super()?
+108)can we use this() and super() at a time in a constructor
+109)what is constructor overloading?
+110)how can you achieve inheritance in java? how many ways are there?
+111)=======
+112)
+113)-------
+114)Exception Handling
+115)Multithreading
+116)Collections Framework
+117)Generics
+118)Reflection API
+119)Annotations
+120)top interview questions on java 1.8 version?
+121)java features 1.5 to 1.17
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
