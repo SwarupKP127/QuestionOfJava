@@ -1,0 +1,10 @@
+----------------------------------------------------
+Introduction to GitLab CI | What is GitLab CI | GitLab Tutorial For Beginners | Part I
+https://www.youtube.com/watch?v=qKxytMuUiJA
+-------------------------------------------------------
+Introduction To GitLab Interface | GitLab Tutorial For Beginners | Part II
+https://www.youtube.com/watch?v=-DAuKL22hPI
+------------------------------------------------------
+What Is GitLab Workflow | GitLab Flow | GitLab Tutorial For Beginners | Part III
+https://www.youtube.com/watch?v=7lgGEXpsflI
+---------------------------------------------------------

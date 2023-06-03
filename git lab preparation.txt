@@ -1,0 +1,760 @@
+---------------------------------------
+GitLab
+-------------------------------
+Question)what is Gitlab?
+Answer)Gitlab is an Open-Source Software Development Platform.
+->Source Code Management System
+->CI/CD Complete Devops Paltform
+
+
+Question)What is the difference between Git vs. GitLab?
+Answer)Git is a version control system.
+v1=>v2=>v3
+
+GitLab is a Source Code Management System
+Local Git Repo
+               |=>GitLab     
+Local Git Repo
+
+
+Question)Why use GiTlAB?
+Answer)GitLab enables collabaration among team of developers with the GitLab flow.
+->Built in CI/CD functionality.
+->It can integrate with other tools.
+->And a plethora of other features.
+
+
+git --version
+to check git version
+
+git init
+to initialize git
+
+git init  
+Reinitialized existing Git repository in C:/Users/91990/.git/
+[in command prompt]
+
+git init test-project
+Initialized empty Git repository in C:/Users/91990/test-project/.git/
+[in commnad prompt]
+
+git config --global init.defaultBarnch main
+you need to confirm default branch is main
+
+cd..
+go to previous folder
+
+C:\>cd "D:\gitLab"
+C:\>d:
+D:\gitLab>c:
+C:\>
+change directory from one drive to another drive
+
+D:\gitLab>git init test-project
+Initialized empty Git repository in D:/gitLab/test-project/.git/
+
+D:\gitLab>git config --global init.defaultBranch main
+inform to git default branch is main
+
+D:\gitLab>cd test-project
+change to project directory
+
+D:\gitLab\test-project>git branch -m main
+
+D:\gitLab\test-project>git branch
+
+D:\gitLab\test-project>ls
+find list of files in unix operating system
+
+D:\gitLab\test-project>dir /s /b /o:gn
+D:\gitLab\test-project\.git\hooks
+D:\gitLab\test-project\.git\info
+D:\gitLab\test-project\.git\objects
+D:\gitLab\test-project\.git\refs
+D:\gitLab\test-project\.git\config
+D:\gitLab\test-project\.git\description
+D:\gitLab\test-project\.git\HEAD
+D:\gitLab\test-project\.git\hooks\applypatch-msg.sample
+D:\gitLab\test-project\.git\hooks\commit-msg.sample
+D:\gitLab\test-project\.git\hooks\fsmonitor-watchman.sample
+D:\gitLab\test-project\.git\hooks\post-update.sample
+D:\gitLab\test-project\.git\hooks\pre-applypatch.sample
+D:\gitLab\test-project\.git\hooks\pre-commit.sample
+D:\gitLab\test-project\.git\hooks\pre-merge-commit.sample
+D:\gitLab\test-project\.git\hooks\prepare-commit-msg.sample
+D:\gitLab\test-project\.git\hooks\pre-push.sample
+D:\gitLab\test-project\.git\hooks\pre-rebase.sample
+D:\gitLab\test-project\.git\hooks\pre-receive.sample
+D:\gitLab\test-project\.git\hooks\push-to-checkout.sample
+D:\gitLab\test-project\.git\hooks\update.sample
+D:\gitLab\test-project\.git\info\exclude
+D:\gitLab\test-project\.git\objects\info
+D:\gitLab\test-project\.git\objects\pack
+D:\gitLab\test-project\.git\refs\heads
+D:\gitLab\test-project\.git\refs\tags
+
+note:
+/s Displays files in specified directory and all subdirectories.
+/b Uses bare format (no heading information or summary).
+/o List by files in sorted order.
+Then in :gn, g sorts by folders and then files, and n puts those files in alphabetical order.
+this is for windows operating system
+
+
+D:\gitLab\test-project>git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hello.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+
+D:\gitLab\test-project>vim hello.txt
+in unix file will create
+
+for windows
+open notepad
+write something
+save in D:\gitLab\test-project path as hello.txt
+
+
+D:\gitLab\test-project>ls
+hello.txt
+for unix
+
+D:\gitLab\test-project>dir /s /b /o:gn
+it will show hello.txt file is there with extra git files
+for windows
+
+
+D:\gitLab\test-project>git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hello.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+working directrory->staging area->repository
+               (git add)      (git commit)
+
+
+D:\gitLab\test-project>git add hello.txt
+working directory or unstage to stage directory
+
+
+D:\gitLab\test-project>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello.txt
+
+
+D:\gitLab\test-project>git rm --cached hello.txt
+rm 'hello.txt'
+change to stage area to unstage
+
+
+D:\gitLab\test-project>git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hello.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+D:\gitLab\test-project>git add hello.txt
+
+
+D:\gitLab\test-project>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello.txt
+
+
+
+D:\gitLab\test-project>git commit -m "adding hello.txt"
+[main (root-commit) 2dca040] adding hello.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello.txt
+
+
+D:\gitLab\test-project>git log
+commit 2dca040bab02d04232b65bd0cdbe775e7a117719 (HEAD -> main)
+Author: SwarupKP127 <swarupkp12@gmail.com>
+Date:   Sat Jun 3 08:30:36 2023 +0530
+
+    adding hello.txt
+
+HEAD -> main
+means branch is on main
+
+
+D:\gitLab\test-project>git status
+On branch main
+nothing to commit, working tree clean
+
+
+D:\gitLab\test-project>git branch my-feature
+it will create new branch
+
+
+D:\gitLab\test-project>git branch
+* main
+  my-feature
+
+it will show all branches
+* main maens still we are working in main branch
+
+
+D:\gitLab\test-project>git log
+commit 2dca040bab02d04232b65bd0cdbe775e7a117719 (HEAD -> main, my-feature)
+Author: SwarupKP127 <swarupkp12@gmail.com>
+Date:   Sat Jun 3 08:30:36 2023 +0530
+
+    adding hello.txt
+
+
+HEAD -> main means we are on main branch
+
+
+D:\gitLab\test-project>git checkout my-feature
+Switched to branch 'my-feature'
+
+it will move to my-feature branch
+
+
+D:\gitLab\test-project>git status
+On branch my-feature
+nothing to commit, working tree clean
+
+
+D:\gitLab\test-project>git log
+commit 2dca040bab02d04232b65bd0cdbe775e7a117719 (HEAD -> my-feature, main)
+Author: SwarupKP127 <swarupkp12@gmail.com>
+Date:   Sat Jun 3 08:30:36 2023 +0530
+
+    adding hello.txt
+
+HEAD -> my-feature means we are on my-feature branch
+
+
+
+D:\gitLab\test-project>git branch
+  main
+* my-feature
+
+
+D:\gitLab\test-project>git status
+On branch my-feature
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello.txt
+
+
+D:\gitLab\test-project>vim hello one.txt
+it will create hello one.txt file in feature branch
+
+for windows
+go to this D:\gitLab\test-project path create hello one.txt file
+
+
+D:\gitLab\test-project>git commit -m "hello modified"
+On branch my-feature
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hello one.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+D:\gitLab\test-project>git add hello.txt
+
+D:\gitLab\test-project>git commit -m "hello.txt modified"
+[my-feature a517748] hello.txt modified
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+
+D:\gitLab\test-project>git branch
+  main
+* my-feature
+
+D:\gitLab\test-project>git status
+On branch my-feature
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hello one.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+D:\gitLab\test-project>git add .
+
+D:\gitLab\test-project>git status
+On branch my-feature
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   hello one.txt
+
+
+D:\gitLab\test-project>git commit -m "new file committed"
+[my-feature 2a3abac] new file committed
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello one.txt
+
+
+D:\gitLab\test-project>git log
+commit 2a3abacbc682517fb29c54a499ef0111904a097b (HEAD -> my-feature)
+Author: SwarupKP127 <swarupkp12@gmail.com>
+Date:   Sat Jun 3 09:29:08 2023 +0530
+
+    new file committed
+
+commit a5177484db846c728fdf6a1aca9498b509cbac76
+Author: SwarupKP127 <swarupkp12@gmail.com>
+Date:   Sat Jun 3 09:08:59 2023 +0530
+
+    hello.txt modified
+
+commit 2dca040bab02d04232b65bd0cdbe775e7a117719 (main)
+Author: SwarupKP127 <swarupkp12@gmail.com>
+Date:   Sat Jun 3 08:30:36 2023 +0530
+
+    adding hello.txt
+
+
+D:\gitLab\test-project>ls
+hello.txt hello one.txt
+in unix
+
+
+D:\gitLab\test-project>dir /s /b /o:gn
+hello one.txt 
+hello.txt file with .git file
+
+
+D:\gitLab\test-project>git checkout main
+Switched to branch 'main'
+
+
+D:\gitLab\test-project>git branch
+* main
+  my-feature
+
+
+D:\gitLab\test-project>ls
+hello.txt
+in unix
+
+
+D:\gitLab\test-project>cat hello.txt
+original content will come
+not modified content
+
+
+D:\gitLab\test-project>git status
+On branch main
+nothing to commit, working tree clean
+
+
+D:\gitLab\test-project>git merge my-feature
+Updating 2dca040..2a3abac
+Fast-forward
+ hello one.txt | 1 +
+ hello.txt     | 2 +-
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 hello one.txt
+
+
+D:\gitLab\test-project>git log
+commit 2a3abacbc682517fb29c54a499ef0111904a097b (HEAD -> main, my-feature)
+Author: SwarupKP127 <swarupkp12@gmail.com>
+Date:   Sat Jun 3 09:29:08 2023 +0530
+
+    new file committed
+
+commit a5177484db846c728fdf6a1aca9498b509cbac76
+Author: SwarupKP127 <swarupkp12@gmail.com>
+Date:   Sat Jun 3 09:08:59 2023 +0530
+
+    hello.txt modified
+
+commit 2dca040bab02d04232b65bd0cdbe775e7a117719
+Author: SwarupKP127 <swarupkp12@gmail.com>
+Date:   Sat Jun 3 08:30:36 2023 +0530
+
+    adding hello.txt
+
+
+
+D:\gitLab\test-project>git log --all --oneline
+2a3abac (HEAD -> main, my-feature) new file committed
+a517748 hello.txt modified
+2dca040 adding hello.txt
+
+--all gives all branches of given repository
+--oneline gives each line of repository
+
+
+D:\gitLab\test-project>ls
+hello.txt hello one.txt
+in unix
+
+
+D:\gitLab\test-project>git branch -d my-feature
+Deleted branch my-feature (was 2a3abac).
+
+deleted my-feature branch
+
+
+D:\gitLab\test-project>git branch
+* main
+
+
+modified hello.txt file
+
+
+D:\gitLab\test-project>git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+D:\gitLab\test-project>git stash push
+Saved working directory and index state WIP on main: 2a3abac new file committed
+
+
+D:\gitLab\test-project>git status
+On branch main
+nothing to commit, working tree clean
+
+
+D:\gitLab\test-project>cat hello.txt
+if you read the file by using cat command testing word will not find
+in unix
+
+
+D:\gitLab\test-project>git status
+On branch main
+nothing to commit, working tree clean
+
+
+D:\gitLab\test-project>git stash list
+stash@{0}: WIP on main: 2a3abac new file committed
+
+
+D:\gitLab\test-project>git status
+On branch main
+nothing to commit, working tree clean
+
+still file is not modified
+
+
+D:\gitLab\test-project>git stash apply
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+changes reflected
+
+
+D:\gitLab\test-project>cat hello.txt
+testing word come which is added by before
+
+
+D:\gitLab\test-project>git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
