@@ -1,10 +1,35 @@
 ----------------------------------------------------
+one tutorials:
 Introduction to GitLab CI | What is GitLab CI | GitLab Tutorial For Beginners | Part I
 https://www.youtube.com/watch?v=qKxytMuUiJA
--------------------------------------------------------
+
 Introduction To GitLab Interface | GitLab Tutorial For Beginners | Part II
 https://www.youtube.com/watch?v=-DAuKL22hPI
-------------------------------------------------------
+
 What Is GitLab Workflow | GitLab Flow | GitLab Tutorial For Beginners | Part III
 https://www.youtube.com/watch?v=7lgGEXpsflI
 ---------------------------------------------------------
+another tutorials:
+https://www.youtube.com/watch?v=N6JxpYC1oSk
+#4 GitLab Tutorial in Hindi | Git SSH Key | Easy Explanation
+
+
+#1 GitLab Tutorial in Hindi | Introduction and Getting Started | Easy Explanation
+https://www.youtube.com/watch?v=PJ_leJJLuaM&list=RDCMUCck6BsJ0H8C8C8JVgSS1b8Q&index=1
+
+#2 GitLab Tutorial in Hindi | Getting Started with Git | Easy Explanation
+https://www.youtube.com/watch?v=xKKX24B9r2s
+-------------------------------------------
+not activated:
+swarupkp1675@gmail.com
+
+qwertb182
+Skp1237
+Skp1238
+----------------------------
+account activated:
+
+username:Swarup189
+email:swarupkp7651@gmail.com
+password:qwertb183
+-------------------------------------
