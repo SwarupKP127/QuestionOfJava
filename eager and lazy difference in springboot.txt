@@ -1,0 +1,16 @@
+-------------------------------------------------------
+eager loading object need to create
+https://github.com/Java-Techie-jt/annotations-cheatsheet/blob/main/src/main/java/com/javatechie/spring/EagerLoadingBean.java
+
+lazy loading object need to create
+https://github.com/Java-Techie-jt/annotations-cheatsheet/blob/main/src/main/java/com/javatechie/spring/LazyLoadingBean.java
+
+start application
+egaer loading object created
+
+eager loading object i am not using any where. it means spring boot is eager loading.
+
+when you run application for lazy loading.
+you need to annotate with @Lazy annotation on the class and you need to inject the class with @Autowired. so spring will initializae the bean.
+https://github.com/Java-Techie-jt/annotations-cheatsheet/blob/main/src/main/java/com/javatechie/spring/controller/StudentController.java
+----------------------------------------------

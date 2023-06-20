@@ -8,3 +8,15 @@ https://www.youtube.com/watch?v=4BUKaazoYyg
 Singleton Design pattern in Java | Best Practice | Java Techie
 https://www.youtube.com/watch?v=3yEx0w3eYpk
 ----------------------------------------------------
+Interview QA | 40+ Spring & Spring Boot Annotations Everyone Should Know | JavaTechie
+https://www.youtube.com/watch?v=htyq-mER0AE
+-----------------------------------------------------
+Spring Boot | REST API Request Validation & Exception Handling Realtime Example | JavaTechie
+https://www.youtube.com/watch?v=gPnd-hzM_6A
+-------------------------------------------------------
+Spring Boot - Spring Security + JWT Complete Tutorial With Example | javatechie
+https://www.youtube.com/watch?v=rBNOc4ymd1E
+------------------------------------------------------
+Spring Boot | Spring Data JPA Transaction Management | @Transactional | JavaTechie
+https://www.youtube.com/watch?v=95kxPSbHzVg
+--------------------------------------------
