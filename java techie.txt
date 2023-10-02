@@ -20,3 +20,21 @@ https://www.youtube.com/watch?v=rBNOc4ymd1E
 Spring Boot | Spring Data JPA Transaction Management | @Transactional | JavaTechie
 https://www.youtube.com/watch?v=95kxPSbHzVg
 --------------------------------------------
+Apache Kafka® Tutorials for Beginners | What & Why Apache Kafka? Brief introduction | JavaTechie
+https://www.youtube.com/watch?v=xGwzuz8F9k0&list=RDCMUCORuRdpN2QTCKnsuEaeK-kQ&index=2
+------------------------------------------------
+Apache Kafka® Components & Architecture Detailed Explanation in 15 min | Javatechie
+https://www.youtube.com/watch?v=HUAa1Yg9NlI
+--------------------------------------------------
+Apache Kafka® Installation On Windows & Mac | Confluent Kafka | Offset Explorer | JavaTechie
+om/watch?v=Y83O0_7OKb4&list=RDCMUCORuRdpN2QTCKnsuEaeK-kQ&index=3
+---------------------------------------------
+Apache Kafka® & Confluent Kafka CLI hands on tutorial | Producer & Consumer Flow | JavaTechie
+https://www.youtube.com/watch?v=jhPTpurb5sA
+----------------------------------------------------------
+Apache Kafka No Longer Requires ZooKeeper | Kraft Mode | Detailed Explanation | JavaTechie
+https://www.youtube.com/watch?v=k_JbBYjZ6G4&list=RDCMUCORuRdpN2QTCKnsuEaeK-kQ&index=3
+------------------------------------------------------------
+Apache Kafka® Producer Example using SpringBoot 3.x | Java Techie
+https://www.youtube.com/watch?v=rVqAoUIPO7I
+-------------------------------------------------
