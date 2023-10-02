@@ -42,4 +42,18 @@ Spring JMS with ActiveMQ example using annotation configuration:
 ->Client 2 which is message consumer which will consume message from queue and acknowledges message to queue.
 ->in this example we are using queue of ActiveMQ.
 ----------------------------------------------
+step1------https://www.youtube.com/watch?v=CrpBJgGqhS8============>activemq run
+step2------producer code(MessageProducerApp)
+step3------http://localhost:8161/(open in browser)
+enter in popup
+username:admin
+password:admin
+home page will come
+Manage ActiveMQ broker---->click
+then click
+Queues
+step4-----consumer code(MessageConsumerApp)
+----------------------------------------------------------
+
+
 
