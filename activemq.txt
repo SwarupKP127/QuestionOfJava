@@ -43,6 +43,41 @@ Spring JMS with ActiveMQ example using annotation configuration:
 ->in this example we are using queue of ActiveMQ.
 ----------------------------------------------
 step1================>https://www.youtube.com/watch?v=CrpBJgGqhS8=============>activemq start
+D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15>activemq start
+Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files\Java\jdk1.8.0_261\jre
+  Heap sizes: current=1005056k  free=989327k  max=1005056k
+    JVM args: -Dcom.sun.management.jmxremote -Xms1G -Xmx1G -Djava.util.logging.config.file=logging.properties -Djava.security.auth.login.config=D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\..\conf\login.config -Dactivemq.classpath=D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\..\conf;D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\../conf;D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\../conf; -Dactivemq.home=D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\.. -Dactivemq.base=D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\.. -Dactivemq.conf=D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\..\conf -Dactivemq.data=D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\..\data -Djava.io.tmpdir=D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\..\data\tmp
+Extensions classpath:
+  [D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\..\lib,D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\..\lib\camel,D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\..\lib\optional,D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\..\lib\web,D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\..\lib\extra]
+ACTIVEMQ_HOME: D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\..
+ACTIVEMQ_BASE: D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\..
+ACTIVEMQ_CONF: D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\..\conf
+ACTIVEMQ_DATA: D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\..\data
+Loading message broker from: xbean:activemq.xml
+ INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@78c03f1f: startup date [Tue Oct 03 06:32:00 IST 2023]; root of context hierarchy
+ INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\..\data\kahadb]
+ INFO | Page File: D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+ INFO | KahaDB is version 6
+ INFO | Page File: D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+ INFO | PListStore:[D:\activemq installation\apache-activemq-5.15.15-bin\apache-activemq-5.15.15\bin\..\data\localhost\tmp_storage] started
+ INFO | Apache ActiveMQ 5.15.15 (localhost, ID:LAPTOP-RI3DGBJN-61518-1696294922374-0:1) is starting
+ INFO | Listening for connections at: tcp://LAPTOP-RI3DGBJN:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+ INFO | Connector openwire started
+ INFO | Listening for connections at: amqp://LAPTOP-RI3DGBJN:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+ INFO | Connector amqp started
+ INFO | Listening for connections at: stomp://LAPTOP-RI3DGBJN:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+ INFO | Connector stomp started
+ INFO | Listening for connections at: mqtt://LAPTOP-RI3DGBJN:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+ INFO | Connector mqtt started
+ INFO | Starting Jetty server
+ INFO | Creating Jetty connector
+ WARN | ServletContext@o.e.j.s.ServletContextHandler@3212a8d7{/,null,STARTING} has uncovered http methods for path: /
+ INFO | Listening for connections at ws://LAPTOP-RI3DGBJN:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+ INFO | Connector ws started
+ INFO | Apache ActiveMQ 5.15.15 (localhost, ID:LAPTOP-RI3DGBJN-61518-1696294922374-0:1) started
+ INFO | For help or more information please see: http://activemq.apache.org
+ INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+ INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
 step2================>sender(MessageProducerApp)
 step3================>http://localhost:8161/
 enter in popup
