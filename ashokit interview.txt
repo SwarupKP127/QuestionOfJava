@@ -35,3 +35,8 @@ https://www.youtube.com/watch?v=9i3eF1fJRSI
 Spring Security Interview Questions & Answers
 https://www.youtube.com/watch?v=0Kp82SoYTRw
 --------------------------------------------------------
+Spring Boot with Payment Gateway : Step by Step Guide | Razorpay Integration
+https://www.youtube.com/watch?v=t574YTo7HEw
+
+https://github.com/ashokitschool/springboot_payment_gateway_integration/tree/main
+-------------------------------------------------------------

@@ -111,7 +111,7 @@ password:Purchase12@
 ---------------------------------
 amazon
 
-email:ecommercefashopping@gmail.com
+email:spurchase12378@gmail.com
 password:Amazon12@
 
 mobile number:9902275912
@@ -126,6 +126,30 @@ Pwc
 swarupkpanigrahi123@gmail.com
 Pwc12345@
 -------------------------------------------
+gmail:spurchase12378@gmail.com
+password:Products12@
+
+9902275912
+--------------------------------------
+flipkart.com
+
+spurchase12378@gmail.com
+9902275612
+-----------------------------------------
+postman
+email:swarupkp1756@gmail.com
+password:Postman12@
+-----------------------------------
+Chatgpt details
+email:swarupkp123@gmail.com
+password:Chatgpt12345@
+-------------------------------------
+Leecode account details
+Username======>Swarup-8_
+Password=======>Leetcode12@
+email========>swarupkp1675@gmail.com
+-------------------------------------
+
 
 
 
