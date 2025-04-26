@@ -90,6 +90,7 @@ git push -u origin main
 -----------------------
 authorisation in browser
 enter username and password respective place
+[Authorize git-ecosystem] button click
 authorisation success
 ------------------------
 gitaccess in the Note
