@@ -33,6 +33,10 @@ The cat command reads each File parameter in sequence and writes it to standard 
 The cat command reads each File parameter in sequence and writes it to standard output
 ----------------------------------
 
+=====================
+changes done
+-----------------------------
+
 
 
 
