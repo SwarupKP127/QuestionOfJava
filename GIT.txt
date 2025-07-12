@@ -149,11 +149,16 @@ Username======>Swarup-8_
 Password=======>Leetcode12@
 email========>swarupkp1675@gmail.com
 -------------------------------------
-HackerRank:
+HackerRank details:
 
 username:swarupkp1675@gmail.com
 password:HackerRank12@
 ---------------------------------------------
+Chatgpt details:
+
+6361596214
+Chatgpt123567@
+-------------------------------------------
 
 
 
