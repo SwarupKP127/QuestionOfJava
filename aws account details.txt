@@ -1,7 +1,8 @@
 ----------------------------------------------
 AWS URL================>https://aws.amazon.com/console/
 My Account->AWS Management Console
-Root User click
+Sign in using root user email
+Root User(click)
 emailid===============>swarupkp12@gmail.com
 password=================>Awspassword12@
 ----------------------------------------
