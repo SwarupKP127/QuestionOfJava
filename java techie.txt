@@ -38,3 +38,6 @@ https://www.youtube.com/watch?v=k_JbBYjZ6G4&list=RDCMUCORuRdpN2QTCKnsuEaeK-kQ&in
 Apache Kafka® Producer Example using SpringBoot 3.x | Java Techie
 https://www.youtube.com/watch?v=rVqAoUIPO7I
 -------------------------------------------------
+Java Collection Interview Questions & Answers | Tricky Q&A | Freshers | Experience | JavaTechie
+https://www.youtube.com/watch?v=GO67C7V-IbQ&t=1597s
+-----------------------------------------------------------

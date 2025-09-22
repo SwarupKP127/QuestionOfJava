@@ -40,3 +40,6 @@ https://www.youtube.com/watch?v=t574YTo7HEw
 
 https://github.com/ashokitschool/springboot_payment_gateway_integration/tree/main
 -------------------------------------------------------------
+Deploy Spring Boot Application on AWS EC2 | Step-by-Step Tutorial for Beginners
+https://www.youtube.com/watch?v=XTn0nIcbwvM
+-----------------------------------------------------------------
