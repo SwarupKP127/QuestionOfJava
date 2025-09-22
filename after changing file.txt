@@ -1,0 +1,64 @@
+---------------------------------
+
+91990@LAPTOP-RI3DGBJN MINGW64 /d/interview (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   GIT.txt
+        modified:   ashokit interview.txt
+        modified:   java techie.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hackerearth_test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+91990@LAPTOP-RI3DGBJN MINGW64 /d/interview (main)
+$ git add .
+
+91990@LAPTOP-RI3DGBJN MINGW64 /d/interview (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   GIT.txt
+        modified:   ashokit interview.txt
+        new file:   hackerearth_test.txt
+        modified:   java techie.txt
+
+
+91990@LAPTOP-RI3DGBJN MINGW64 /d/interview (main)
+$ git commit -m "some details updated"
+[main e685815] some details updated
+ 4 files changed, 28 insertions(+), 1 deletion(-)
+ create mode 100644 hackerearth_test.txt
+
+91990@LAPTOP-RI3DGBJN MINGW64 /d/interview (main)
+$ git push origin
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 913 bytes | 456.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/SwarupKP127/QuestionOfJava.git
+   7dc4fef..e685815  main -> main
+
+91990@LAPTOP-RI3DGBJN MINGW64 /d/interview (main)
+$ ^C
+
+91990@LAPTOP-RI3DGBJN MINGW64 /d/interview (main)
+$ ^C
+
+91990@LAPTOP-RI3DGBJN MINGW64 /d/interview (main)
+$
+
+--------------------------------------------------------------
