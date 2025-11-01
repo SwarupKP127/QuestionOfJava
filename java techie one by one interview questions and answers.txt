@@ -1,9 +1,0 @@
---------------------------------------------
-JAVA TECHIE INTERVIEW QUESTIONS AND ANSWERS
------------------------------
-1.what is pillar of oops conect
-->Encapsulation
-->Inheritance
-->Polymorphism
-->Abstarction
--------------------------------------
