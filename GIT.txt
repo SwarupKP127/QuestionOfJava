@@ -168,6 +168,10 @@ chatgpt login
 emailid:swarupkp1675@gmail.com
 Chatgpt1235678@
 ------------------------
+Microsoft Teams
+email:swarupkp1675@gmail.com
+password:Microsoft123@
+---------------------------------------------
 
 
 
